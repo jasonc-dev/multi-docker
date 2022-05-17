@@ -4,7 +4,7 @@ kind: Certificate
 metadata:
   name: jcdigital-uk-tls
 spec:
-  secretName: jcdigital-uk-tls
+  secretName: jcdigital-uk
   issuerRef:
     name: letsencrypt-prod
     kind: ClusterIssuer
